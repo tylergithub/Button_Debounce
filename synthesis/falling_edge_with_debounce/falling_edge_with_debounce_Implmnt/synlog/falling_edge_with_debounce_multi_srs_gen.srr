@@ -1,0 +1,14 @@
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+File F:\go_board\projects\falling_edge\synthesis\falling_edge_with_debounce\falling_edge_with_debounce_Implmnt\synwork\falling_edge_with_debounce_comp.srs changed - recompiling
+@N: NF107 :"F:\go_board\projects\falling_edge\dhl\Falling_dect.v":1:7:1:18|Selected library: work cell: Falling_dect view verilog as top level
+@N: NF107 :"F:\go_board\projects\falling_edge\dhl\Falling_dect.v":1:7:1:18|Selected library: work cell: Falling_dect view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Aug 08 19:42:20 2020
+
+###########################################################]

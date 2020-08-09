@@ -1,0 +1,4 @@
+@W: FX1039 :"f:\go_board\projects\falling_edge\dhl\debounce.v":10:0:10:5|User-specified initial value defined for instance de_inst.r_counter[17:0] is being ignored. 
+@W: FX1039 :"f:\go_board\projects\falling_edge\dhl\debounce.v":10:0:10:5|User-specified initial value defined for instance de_inst.r_filtered_data is being ignored. 
+@W: FX1039 :"f:\go_board\projects\falling_edge\dhl\falling_dect.v":14:1:14:6|User-specified initial value defined for instance r_LED_1 is being ignored. 
+@W: FX1039 :"f:\go_board\projects\falling_edge\dhl\falling_dect.v":14:1:14:6|User-specified initial value defined for instance r_Switch_1 is being ignored. 

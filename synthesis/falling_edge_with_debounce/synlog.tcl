@@ -1,0 +1,1 @@
+project -load falling_edge_with_debounce_syn.prj

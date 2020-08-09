@@ -1,0 +1,5 @@
+[VIC]
+de_inst.r_counter13_7_cascade_=ltout:in0
+de_inst.r_counter13_8_0_cascade_=ltout:in1
+de_inst.un1_r_counter_10lt11_0_cascade_=ltout:in2
+de_inst.un1_r_counter_10lt17_cascade_=ltout:in0

@@ -1,0 +1,6 @@
+Selecting top level module Falling_dect
+@N: CG364 :"F:\go_board\projects\falling_edge\dhl\debounce.v":1:7:1:14|Synthesizing module debounce in library work.
+
+@A: CG412 :"F:\go_board\projects\falling_edge\dhl\debounce.v":12:5:12:32|Treating === and !== as == and != -- possible simulation mismatch
+@N: CG364 :"F:\go_board\projects\falling_edge\dhl\Falling_dect.v":1:7:1:18|Synthesizing module Falling_dect in library work.
+

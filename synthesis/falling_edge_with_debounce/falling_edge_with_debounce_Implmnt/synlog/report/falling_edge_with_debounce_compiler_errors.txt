@@ -1,0 +1,3 @@
+@E: CS109 :"F:\go_board\projects\falling_edge\dhl\Falling_dect.v":9:10:9:17|Expecting module level statement
+@E: CS187 :"F:\go_board\projects\falling_edge\dhl\Falling_dect.v":25:1:25:9|Expecting endmodule
+

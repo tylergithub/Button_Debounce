@@ -1,0 +1,49 @@
+ble_pack de_inst.r_counter_RNIACNT1_4_LC_5_8_0 { de_inst.r_counter_RNIACNT1[4] }
+ble_pack de_inst.r_counter_RNIJIUG4_12_LC_5_8_1 { de_inst.r_counter_RNIJIUG4[12] }
+ble_pack de_inst.r_filtered_data_RNITOLR6_LC_5_8_2 { de_inst.r_filtered_data_RNITOLR6 }
+ble_pack de_inst.r_filtered_data_RNO_3_LC_5_8_3 { de_inst.r_filtered_data_RNO_3 }
+ble_pack de_inst.r_filtered_data_RNO_0_LC_5_8_4 { de_inst.r_filtered_data_RNO_0 }
+ble_pack de_inst.r_filtered_data_RNO_5_LC_5_8_5 { de_inst.r_filtered_data_RNO_5 }
+ble_pack de_inst.r_counter_RNI8F1P1_10_LC_5_8_7 { de_inst.r_counter_RNI8F1P1[10] }
+clb_pack LT_5_8 { de_inst.r_counter_RNIACNT1_4_LC_5_8_0, de_inst.r_counter_RNIJIUG4_12_LC_5_8_1, de_inst.r_filtered_data_RNITOLR6_LC_5_8_2, de_inst.r_filtered_data_RNO_3_LC_5_8_3, de_inst.r_filtered_data_RNO_0_LC_5_8_4, de_inst.r_filtered_data_RNO_5_LC_5_8_5, de_inst.r_counter_RNI8F1P1_10_LC_5_8_7 }
+set_location LT_5_8 5 8
+ble_pack de_inst.r_counter_RNIEQBK1_17_LC_5_9_0 { de_inst.r_counter_RNIEQBK1[17] }
+ble_pack de_inst.r_filtered_data_RNO_2_LC_5_9_1 { de_inst.r_filtered_data_RNO_2 }
+clb_pack LT_5_9 { de_inst.r_counter_RNIEQBK1_17_LC_5_9_0, de_inst.r_filtered_data_RNO_2_LC_5_9_1 }
+set_location LT_5_9 5 9
+ble_pack de_inst.r_filtered_data_LC_6_7_1 { de_inst.r_filtered_data_RNO, de_inst.r_filtered_data }
+ble_pack r_Switch_1_LC_6_7_3 { r_Switch_1_THRU_LUT4_0, r_Switch_1 }
+ble_pack r_LED_1_LC_6_7_5 { r_LED_1_RNO, r_LED_1 }
+ble_pack de_inst.r_filtered_data_RNO_4_LC_6_7_6 { de_inst.r_filtered_data_RNO_4 }
+ble_pack de_inst.r_filtered_data_RNO_1_LC_6_7_7 { de_inst.r_filtered_data_RNO_1 }
+clb_pack LT_6_7 { de_inst.r_filtered_data_LC_6_7_1, r_Switch_1_LC_6_7_3, r_LED_1_LC_6_7_5, de_inst.r_filtered_data_RNO_4_LC_6_7_6, de_inst.r_filtered_data_RNO_1_LC_6_7_7 }
+set_location LT_6_7 6 7
+ble_pack de_inst.r_counter_2_cry_1_c_LC_6_8_0 { de_inst.r_counter_2_cry_1_c }
+ble_pack de_inst.r_counter_2_LC_6_8_1 { de_inst.r_counter_RNO[2], de_inst.r_counter[2], de_inst.r_counter_2_cry_2_c }
+ble_pack de_inst.r_counter_3_LC_6_8_2 { de_inst.r_counter_RNO[3], de_inst.r_counter[3], de_inst.r_counter_2_cry_3_c }
+ble_pack de_inst.r_counter_4_LC_6_8_3 { de_inst.r_counter_RNO[4], de_inst.r_counter[4], de_inst.r_counter_2_cry_4_c }
+ble_pack de_inst.r_counter_5_LC_6_8_4 { de_inst.r_counter_RNO[5], de_inst.r_counter[5], de_inst.r_counter_2_cry_5_c }
+ble_pack de_inst.r_counter_6_LC_6_8_5 { de_inst.r_counter_RNO[6], de_inst.r_counter[6], de_inst.r_counter_2_cry_6_c }
+ble_pack de_inst.r_counter_7_LC_6_8_6 { de_inst.r_counter_RNO[7], de_inst.r_counter[7], de_inst.r_counter_2_cry_7_c }
+ble_pack de_inst.r_counter_8_LC_6_8_7 { de_inst.r_counter_RNO[8], de_inst.r_counter[8], de_inst.r_counter_2_cry_8_c }
+clb_pack LT_6_8 { de_inst.r_counter_2_cry_1_c_LC_6_8_0, de_inst.r_counter_2_LC_6_8_1, de_inst.r_counter_3_LC_6_8_2, de_inst.r_counter_4_LC_6_8_3, de_inst.r_counter_5_LC_6_8_4, de_inst.r_counter_6_LC_6_8_5, de_inst.r_counter_7_LC_6_8_6, de_inst.r_counter_8_LC_6_8_7 }
+set_location LT_6_8 6 8
+ble_pack de_inst.r_counter_9_LC_6_9_0 { de_inst.r_counter_RNO[9], de_inst.r_counter[9], de_inst.r_counter_2_cry_9_c }
+ble_pack de_inst.r_counter_10_LC_6_9_1 { de_inst.r_counter_RNO[10], de_inst.r_counter[10], de_inst.r_counter_2_cry_10_c }
+ble_pack de_inst.r_counter_11_LC_6_9_2 { de_inst.r_counter_RNO[11], de_inst.r_counter[11], de_inst.r_counter_2_cry_11_c }
+ble_pack de_inst.r_counter_12_LC_6_9_3 { de_inst.r_counter_RNO[12], de_inst.r_counter[12], de_inst.r_counter_2_cry_12_c }
+ble_pack de_inst.r_counter_13_LC_6_9_4 { de_inst.r_counter_RNO[13], de_inst.r_counter[13], de_inst.r_counter_2_cry_13_c }
+ble_pack de_inst.r_counter_14_LC_6_9_5 { de_inst.r_counter_RNO[14], de_inst.r_counter[14], de_inst.r_counter_2_cry_14_c }
+ble_pack de_inst.r_counter_15_LC_6_9_6 { de_inst.r_counter_RNO[15], de_inst.r_counter[15], de_inst.r_counter_2_cry_15_c }
+ble_pack de_inst.r_counter_16_LC_6_9_7 { de_inst.r_counter_RNO[16], de_inst.r_counter[16], de_inst.r_counter_2_cry_16_c }
+clb_pack LT_6_9 { de_inst.r_counter_9_LC_6_9_0, de_inst.r_counter_10_LC_6_9_1, de_inst.r_counter_11_LC_6_9_2, de_inst.r_counter_12_LC_6_9_3, de_inst.r_counter_13_LC_6_9_4, de_inst.r_counter_14_LC_6_9_5, de_inst.r_counter_15_LC_6_9_6, de_inst.r_counter_16_LC_6_9_7 }
+set_location LT_6_9 6 9
+ble_pack de_inst.r_counter_17_LC_6_10_0 { de_inst.r_counter_RNO[17], de_inst.r_counter[17] }
+ble_pack de_inst.r_counter_1_LC_6_10_4 { de_inst.r_counter_RNO[1], de_inst.r_counter[1] }
+ble_pack de_inst.r_counter_0_LC_6_10_7 { de_inst.r_counter_RNO[0], de_inst.r_counter[0] }
+clb_pack LT_6_10 { de_inst.r_counter_17_LC_6_10_0, de_inst.r_counter_1_LC_6_10_4, de_inst.r_counter_0_LC_6_10_7 }
+set_location LT_6_10 6 10
+set_location de_inst.r_filtered_data_RNITOLR6_0 0 8
+set_io o_LED_1 56
+set_io i_Switch_1 53
+set_io i_Clk 15
