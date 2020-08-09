@@ -6,6 +6,7 @@ module Falling_dect
 	reg r_Switch_1 = 1'b0;
 	reg r_LED_1 = 1'b0;
 
+	// Instantiate the "debounce" module:
 	debounce de_inst (
 		.i_Clk(i_Clk),
 		.i_data(i_Switch_1),
@@ -17,7 +18,7 @@ module Falling_dect
 
 			if (r_Switch_1 == 1'b0 && i_Stable_Switch == 1'b1)
 				begin
-					r_LED_1 <= ~r_LED_1;
+					r_LED_1 <= ~r_LED_1; // change LED state
 				end
 		end
 
