@@ -1,2 +1,2 @@
 # Button_Debounce
- Debouncing button in Verilog
+ Implementing debouncing button in Verilog. A switch/button debounce is widely used in hdl due to the  property of physical switches/buttons.
